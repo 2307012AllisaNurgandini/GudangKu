@@ -8,11 +8,15 @@ Website GudangKu dibuat untuk membantu pemilik usaha atau pengelola gudang dalam
 
 ## Teknologi yang Digunakan
 Aplikasi ini dibangun menggunakan teknologi dan tools sebagai berikut:
-- **Framework Backend**: Laravel
+- **Framework Backend**: Laravel 10
 - **Bahasa Pemrograman**: PHP
 - **Database**: MySQL
-- **Frontend**: HTML, CSS, Blade Templating
+- **Frontend**: HTML, CSS, Bootstrap, JavaScript, dan Blade Templating
 - **Library PDF**: DomPDF (barryvdh/laravel-dompdf)
+- **Version Control**: GitHub & Google Drive
+
+## Link Database MySQL
+https://drive.google.com/drive/folders/1s_6QmUzHNik15K3dNKVQNWXxz_QuSnwZ?usp=sharing 
 
 ## Tim Pengembang
 Proyek ini dikerjakan oleh **Kelompok 5**.
