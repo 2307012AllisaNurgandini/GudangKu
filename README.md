@@ -22,9 +22,10 @@ https://drive.google.com/drive/folders/1s_6QmUzHNik15K3dNKVQNWXxz_QuSnwZ?usp=sha
 Proyek ini dikerjakan oleh **Kelompok 5**.
 
 **Anggota Kelompok:**
-1. **Allisa Nurgandini** - NIM: 2307012
-2. **Suryani** - NIM: 2307016
-3. **Hisyam Abdillah Sumpena** - NIM: 2307004
+No,Nama Lengkap,NIM
+1,Hisyam Abdillah Sumpena,2307004
+2,Allisa Nurgandini,2307012
+3,Suryani,2307016
 
 ## Tangkapan layar (Screenshot) aplikasi.
 1. Halaman login
