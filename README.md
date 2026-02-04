@@ -23,15 +23,18 @@ Proyek ini dikerjakan oleh **Kelompok 5**.
 
 ## Tangkapan layar (Screenshot) aplikasi.
 1. Halaman login
-   
-2.  Halaman Daftar barang
+   <img width="1366" height="677" alt="login" src="https://github.com/user-attachments/assets/a187f927-b0c5-40b0-9bde-15ebe8d3637c" />
+2. Halaman Daftar barang
+   <img width="1366" height="677" alt="tampilan daftar barang" src="https://github.com/user-attachments/assets/5aab7758-5858-4f79-a9e7-8738d0525480" />
 3. Halaman Tambah Barang
-
+   <img width="1366" height="675" alt="tambah barang" src="https://github.com/user-attachments/assets/72b24354-8482-4590-9869-977c3d26f698" />
 4. Halaman Detail Barang
-  
+   <img width="1366" height="673" alt="detail barang" src="https://github.com/user-attachments/assets/a909493c-9d0a-4567-b7a2-6d83b894e07c" />
 5. Halaman Edit Barang
-  
+   <img width="1366" height="679" alt="edit barang" src="https://github.com/user-attachments/assets/81ab0561-92b0-4702-84e2-1a0e5db44368" />
 6. Fitur Pencarian
+    <img width="1366" height="677" alt="fitur pencarian" src="https://github.com/user-attachments/assets/0735244f-acc6-423b-8740-c801c2fff46a" />
+
   
 
 
