@@ -20,7 +20,7 @@
     <p>Dicetak pada: {{ date('d-m-Y H:i') }}</p>
 </div>
 
-<!-- Logo -->
+ <!-- Logo -->
         <div class="d-flex align-items-center">
             <img src="{{ asset('image/logoGudangKu.png') }}"
                  width="40"
