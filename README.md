@@ -1,7 +1,10 @@
 # GudangKu
 
-## Deskripsi dan Tujuan
+## Deskripsi singkat aplikasi
 **GudangKu** adalah aplikasi untuk mengelola data stok barang secara digital. Aplikasi ini membantu mencatat, memantau persediaan, mengelompokkan barang berdasarkan kategori, serta membuat laporan dengan lebih cepat dan rapi.
+
+## Tujuan aplikasi dibuat
+Website GudangKu dibuat untuk membantu pemilik usaha atau pengelola gudang dalam mengelola stok barang dengan lebih efisien, mengurangi kesalahan pencatatan, mempercepat pencarian data, serta mendukung pengambilan keputusan berdasarkan laporan yang akurat.
 
 ## Teknologi yang Digunakan
 Aplikasi ini dibangun menggunakan teknologi dan tools sebagai berikut:
