@@ -20,20 +20,28 @@
     <p>Dicetak pada: {{ date('d-m-Y H:i') }}</p>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom no-print">
-    <div class="container">
-        <img src="{{ asset('image/logoGudangKu.png') }}" alt="Logo" width="40" height="40" class="me-2" style="border-radius: 50%;">
-        <a class="navbar-brand" href="#">Gudangku</a>
+<!-- Logo -->
+        <div class="d-flex align-items-center">
+            <img src="{{ asset('image/logoGudangKu.png') }}"
+                 width="40"
+                 height="40"
+                 class="me-2 rounded-circle">
+
+            <a class="navbar-brand">Gudangku</a>
+        </div>
+
+        <!-- Logout -->
+        <div class="ms-auto">
+            <form action="{{ route('logout') }}" method="POST">
+                @csrf
+                <button type="submit" class="btn btn-outline-light btn-sm">
+                    Logout
+                </button>
+            </form>
+        </div>
+
     </div>
 </nav>
-
-<!-- Logout -->
-        <form action="{{ route('logout') }}" method="POST" class="d-flex">
-            @csrf
-            <button type="submit" class="btn btn-outline-light btn-sm">
-                <i class="fas fa-sign-out-alt"></i> Logout
-            </button>
-        </form>
 
 <div class="container mt-4">
     <div class="d-flex justify-content-between align-items-center mb-3">
