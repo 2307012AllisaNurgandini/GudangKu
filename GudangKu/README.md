@@ -18,5 +18,5 @@ Proyek ini dikerjakan oleh **Kelompok 5**.
 
 **Anggota Kelompok:**
 1. **Allisa Nurgandini** - NIM: 2307012
-2. **Suryani** - NIM: 2307016
+2. **Suryani** - NIM: 2307015
 3. **Hisyam Abdillah Sumpena** - NIM: 2307004
