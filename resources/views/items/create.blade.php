@@ -9,9 +9,29 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom no-print">
     <div class="container">
-        <a class="navbar-brand" href="#">Gudangku</a>
+
+        <!-- Logo -->
+        <div class="d-flex align-items-center">
+            <img src="{{ asset('image/logoGudangKu.png') }}"
+                 width="40"
+                 height="40"
+                 class="me-2 rounded-circle">
+
+            <a class="navbar-brand">Gudangku</a>
+        </div>
+
+        <!-- Logout -->
+        <div class="ms-auto">
+            <form action="{{ route('logout') }}" method="POST">
+                @csrf
+                <button type="submit" class="btn btn-outline-light btn-sm">
+                    Logout
+                </button>
+            </form>
+        </div>
+
     </div>
 </nav>
 
