@@ -27,6 +27,14 @@
     </div>
 </nav>
 
+<!-- Logout -->
+        <form action="{{ route('logout') }}" method="POST" class="d-flex">
+            @csrf
+            <button type="submit" class="btn btn-outline-light btn-sm">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </button>
+        </form>
+
 <div class="container mt-4">
     <div class="d-flex justify-content-between align-items-center mb-3">
         <h2 class="fw-bold">Daftar Barang</h2>
