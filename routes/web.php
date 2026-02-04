@@ -18,6 +18,5 @@ Route::middleware('auth')->group(function () {
 Route::resource('items', ItemController::class);
 Route::get('/print', [ItemController::class, 'print'])->name('items.print');
 
-Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 });
 
