@@ -1,9 +1,7 @@
 # GudangKu
 
 ## Deskripsi dan Tujuan
-**GudangKu** adalah sebuah sistem aplikasi berbasis web yang dibuat untuk keperluan manajemen inventaris gudang. Tujuan utama dari website ini adalah untuk mempermudah pengelolaan data barang, mulai dari pencatatan barang masuk, pengubahan data, penghapusan, hingga pencarian dan pelaporan stok barang.
-
-Dengan adanya sistem ini, diharapkan proses administrasi gudang menjadi lebih terstruktur, akurat, dan efisien.
+**GudangKu** GudangKu adalah aplikasi untuk mengelola data stok barang secara digital. Aplikasi ini membantu mencatat, memantau persediaan, mengelompokkan barang berdasarkan kategori, serta membuat laporan dengan lebih cepat dan rapi.
 
 ## Teknologi yang Digunakan
 Aplikasi ini dibangun menggunakan teknologi dan tools sebagai berikut:
