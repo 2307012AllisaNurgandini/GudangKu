@@ -1,0 +1,54 @@
+/* Navbar biru muda */
+        .navbar-custom { background-color: #5bc0de; }
+        
+        /* Tombol biru muda */
+        .btn-custom-info {
+            background-color: #5bc0de;
+            border-color: #5bc0de;
+            color: white;
+        }
+        .btn-custom-info:hover {
+            background-color: #31b0d5;
+            color: white;
+        }
+
+        /* === CSS KHUSUS CETAK === */
+        @media print {
+            /* Sembunyikan elemen yang tidak perlu di PDF */
+            .no-print, .navbar, .btn {
+                display: none !important;
+            }
+
+            /* Percantik tampilan tabel di PDF */
+            .container {
+                width: 100% !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+
+            table {
+                width: 100% !important;
+                border: 1px solid #000 !important;
+            }
+
+            th {
+                background-color: #f8f9fa !important;
+                color: black !important;
+                width: 30%;
+            }
+        }
+
+        /* Judul laporan hanya muncul saat print */
+        .print-header {
+            display: none;
+        }
+
+        @media print {
+            .print-header {
+                display: block;
+                text-align: center;
+                margin-bottom: 30px;
+                border-bottom: 2px solid #333;
+                padding-bottom: 10px;
+            }
+        }

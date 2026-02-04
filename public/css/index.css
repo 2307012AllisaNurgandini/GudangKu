@@ -1,0 +1,32 @@
+.navbar-custom { background-color: #5bc0de; }
+        .btn-custom-info { background-color: #5bc0de; border-color: #5bc0de; color: white; }
+        .btn-custom-info:hover { background-color: #31b0d5; color: white; }
+
+        /* Mencegah pergeseran tata letak (Layout Shift) */
+        .table-responsive {
+            min-height: 400px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        /* Styling tabel agar tidak bertumpuk */
+        .table th, .table td {
+            white-space: nowrap;
+            padding: 12px 10px !important;
+        }
+
+        /* Responsif Mobile */
+        @media (max-width: 768px) {
+            h2 { font-size: 1.4rem; }
+            .btn-sm { font-size: 0.75rem; }
+            .form-label { font-size: 0.85rem; }
+        }
+
+        @media print {
+            .navbar, .btn, .no-print, form, .alert { display: none !important; }
+            table { width: 100% !important; border-collapse: collapse !important; }
+            th, td { border: 1px solid #000 !important; padding: 8px !important; }
+            .print-only-title { display: block !important; text-align: center; margin-bottom: 20px; }
+        }
+
+        .print-only-title { display: none; }

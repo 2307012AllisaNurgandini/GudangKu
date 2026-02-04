@@ -1,0 +1,12 @@
+.navbar-custom { 
+    background-color: #5bc0de; 
+}
+.btn-custom-info { 
+    background-color: #5bc0de; 
+    border-color: #5bc0de; 
+    color: white; 
+}
+.btn-custom-info:hover { 
+    background-color: #31b0d5; 
+    color: white; 
+}

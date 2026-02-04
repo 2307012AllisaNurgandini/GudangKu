@@ -1,0 +1,29 @@
+/* Warna navbar biru muda khusus */
+.navbar-custom {
+    background-color: #5bc0de;
+    }
+
+        /* Tombol biru muda */
+        .btn-custom-info {
+            background-color: #5bc0de;
+            border-color: #5bc0de;
+            color: white;
+        }
+
+        /* Hover tombol biru muda */
+        .btn-custom-info:hover {
+            background-color: #31b0d5;
+            border-color: #31b0d5;
+            color: white;
+        }
+
+        /* Tombol lain */
+        .btn-custom-warning:hover {
+            background-color: #ec971f;
+            border-color: #d58512;
+        }
+
+        .btn-custom-danger:hover {
+            background-color: #c9302c;
+            border-color: #ac2925;
+        }
